@@ -1,0 +1,70 @@
+<html>
+<head>
+    
+    </head>
+    <body>
+        <h1>
+            <span class="animate">JavaScript Variable</span>
+        </h1>
+    
+        <p>
+            <span id="content"></span>
+        </p>
+        <script>
+
+    
+var nameA = prompt('Masukan Nama A');
+console.log('namaA '+nameA);
+var tinggiA = prompt('Masukan Tinggi A');
+console.log('tinggiA '+tinggiA);
+var usiaA = prompt('Masukan Usia A');
+console.log('UsiaA '+usiaA);
+    
+var nametB = prompt('Masukan Nama B');
+console.log('namaB '+nametB);
+var tinggiB = prompt('Masukan Tinggi B');
+console.log('tinggiB '+tinggiB);  
+var usiaB =prompt('Masukan Usia B');
+console.log('usiaB '+usiaB);
+
+var nametC = prompt('Masukan Nama C');
+console.log('namaB '+nametC);
+var tinggiC = prompt('Masukan Tinggi C');
+console.log('tinggiC '+tinggiC); 
+var usiaC = prompt('Masukan Usia C');
+console.log('usiaC '+usiaC);
+
+
+var hasilA=tinggiA+(5*usiaA);
+var hasilB=tinggiB+(5*usiaB);
+var hasilC=tinggiC+(5*usiaC);
+    
+
+console.log('skorA='+hasilA+' skorB='+hasilB +' skorC '+hasilC);
+    
+    if((hasilA>hasilB)&&(hasilA>hasilC)){
+        console.log('Winner =A dg skor ='+hasilA);
+        alert(nameA + ' adalah Pemenang dari game ini dengan Skor ' + hasilA );
+    }else if((hasilB>hasilA)&&(hasilB>hasilC)){
+            console.log('Winner =B dg skor = '+hasilB);
+            alert(nametB + ' adalah Pemenang dari game ini dengan Skor ' + hasilB );
+             }
+else if((hasilC>hasilA)&&(hasilC>hasilB)){
+            console.log('Winner =C dg skor = '+hasilC);
+            alert(nametC + ' adalah Pemenang dari game ini dengan Skor ' + hasilC );
+             }
+    else if((hasilC==hasilA)&&(hasilC==hasilB)){
+            console.log('draw atau seri');
+            alert(' DRAW ATAU SERI');
+             }
+/// 
+    
+
+    
+
+
+    
+</script>
+
+    </body>
+</html>
